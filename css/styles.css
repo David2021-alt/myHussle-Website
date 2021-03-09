@@ -14,7 +14,7 @@ ul li{
     float: left;
     width: 200px;
     height: 40px;
-    background-color: black;
+    background-color: green;
     opacity: .8;
     line-height: 40px;
     text-align: center;
@@ -27,12 +27,37 @@ ul li a{
     display: block;
 }
 ul li a:hover{
-    background-color: yellow;
+    background-color:#021109;
 }
 ul li ul li{
     display: none;
     margin-bottom: 2px;
+    margin-top: 2px;
 }
 ul li:hover ul li{
     display: block;
+    background-color: black;
+    cursor: pointer;
+    float: right;
+}
+.section{
+    /* position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; */
+
+}
+.section{
+    width: 100%;
+    height: 100vh;
+}
+/* .video-container{
+    position: absolute;
+    top: 0px;
+    width: 100px; */
+
+
 }
