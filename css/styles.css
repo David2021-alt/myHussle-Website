@@ -3,6 +3,8 @@ body{
     background-size: cover;
     font-family: Arial;
     color: rgb(236, 236, 74);
+    background-image: url("/Images/blue1.jpg");
+    z-index: 1;
 }
 ul{
     margin: 0px;
@@ -14,7 +16,7 @@ ul li{
     float: left;
     width: 200px;
     height: 40px;
-    background-color: blue;
+    background-color:lightskyblue;
     opacity: .8;
     line-height: 40px;
     text-align: center;
@@ -25,6 +27,9 @@ ul li a{
     text-decoration: none;
     color: white;
     display: block;
+    margin-left: 1px;
+    margin-right: 1px;
+    align-items: right;
 }
 ul li a:hover{
     background-color:#021109;
@@ -60,10 +65,59 @@ ul li:hover ul li{
     height: 100vh;
     
 } */
-ul li ul li:hover ul li{
-    display: block;
+body ul li ul li:hover ul li{
+    display: ;
     background-color: black;
     cursor: pointer;
-    float: right;
+    float: center;
     color: cyan;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.row{
+    display: inline-block;
+    height: 80%;
+    align-items: center;
+    flex-basis: 50%;
+
+
+}
+.col{
+    flex-basis: 50%;
+    
+}
+col h1{
+    color:white;
+}
+col p{
+color:white;
+}
+button{
+    width: 180px;
+    color:white;
+    font-size: 20px;
+    background-color: rgb(18, 21, 230);
+    border: 0;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+button:hover{
+    display: ;
+    background-color: black;
+    cursor: pointer;
+    float: center;
+    color: cyan;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
 }
